@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <h1>Kursus Pemrograman</h1>
+    <h1>Kursus Pemrograman By EDP</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#courses">Kursus</a>
@@ -66,6 +66,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
