@@ -1,0 +1,66 @@
+<?php
+// index.php
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kursus Pemrograman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kursus Pemrograman</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Kursus</a>
+      <a href="#about">Tentang</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <h2>Belajar Coding dari Dasar Hingga Mahir</h2>
+    <p>Kuasai HTML, CSS, JavaScript, PHP, dan Python bersama mentor profesional.</p>
+  </section>
+
+  <main>
+    <section id="courses" class="courses">
+      <h2>Daftar Kursus</h2>
+      <div class="grid">
+        <div class="card">HTML Dasar</div>
+        <div class="card">CSS Layout</div>
+        <div class="card">JavaScript Interaktif</div>
+        <div class="card">PHP Backend</div>
+        <div class="card">Python Data Science</div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>Kami menyediakan kursus pemrograman online dengan materi lengkap, mentor ahli, dan jadwal fleksibel.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Daftar Kursus</h2>
+      <form action="proses.php" method="post">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <select name="kursus">
+          <option value="HTML">HTML Dasar</option>
+          <option value="CSS">CSS Layout</option>
+          <option value="JavaScript">JavaScript Interaktif</option>
+          <option value="PHP">PHP Backend</option>
+          <option value="Python">Python Data Science</option>
+        </select>
+        <button type="submit">Daftar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kursus Pemrograman. All rights reserved.</p>
+  </footer>
+</body>
+</html>

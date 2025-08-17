@@ -1,0 +1,22 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family: Arial, sans-serif; background:#f4f4f9; color:#333; line-height:1.6;}
+header {background:#1e3a8a; color:white; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;}
+header h1 {font-size:22px;}
+nav a {color:white; margin-left:15px; text-decoration:none;}
+nav a:hover {text-decoration:underline;}
+
+.banner {background:#3b82f6; color:white; text-align:center; padding:60px 20px;}
+.banner h2 {font-size:32px; margin-bottom:10px;}
+
+main {max-width:1100px; margin:20px auto; padding:0 20px;}
+h2 {margin-bottom:15px; color:#1e3a8a;}
+
+.courses .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;}
+.card {background:white; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; font-weight:bold;}
+
+form {display:flex; flex-direction:column; gap:10px; max-width:400px;}
+form input, form select, form button {padding:10px; border:1px solid #ccc; border-radius:5px;}
+form button {background:#1e3a8a; color:white; border:none; cursor:pointer;}
+form button:hover {background:#0f1e52;}
+
+footer {background:#1e293b; color:white; text-align:center; padding:15px; margin-top:20px;}
