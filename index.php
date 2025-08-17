@@ -23,7 +23,7 @@
   <section id="home" class="banner">
     <h2>Belajar Coding dari Dasar Hingga Mahir</h2>
     <h3>COMMING SOON</h3>
-    <h3>Website lagi dalam masa pengerbang abangku!!!</h3>
+    <h3>Website lagi dalam masa pengerjaan abangku!!!</h3>
     <p>Kuasai HTML, CSS, JavaScript, PHP, dan Python bersama mentor profesional.</p>
   </section>
 
@@ -66,4 +66,5 @@
   </footer>
 </body>
 </html>
+
 
